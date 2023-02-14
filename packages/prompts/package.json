@@ -1,0 +1,63 @@
+{
+  "name": "@clack/prompts",
+  "version": "0.2.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natemoo-re/clack",
+    "directory": "packages/prompts"
+  },
+  "bugs": {
+    "url": "https://github.com/natemoo-re/clack/issues"
+  },
+  "homepage": "https://github.com/natemoo-re/clack/tree/main/packages/prompts#readme",
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "author": {
+    "name": "Nate Moore",
+    "email": "nate@natemoo.re",
+    "url": "https://twitter.com/n_moore"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ask",
+    "clack",
+    "cli",
+    "command-line",
+    "command",
+    "input",
+    "interact",
+    "interface",
+    "menu",
+    "prompt",
+    "prompts",
+    "stdin",
+    "ui"
+  ],
+  "packageManager": "pnpm@7.6.0",
+  "scripts": {
+    "prepack": "unbuild"
+  },
+  "dependencies": {
+    "@clack/core": "workspace:^0.1.2",
+    "ansi-regex": "^6.0.1",
+    "picocolors": "^1.0.0",
+    "sisteransi": "^1.0.5"
+  },
+  "devDependencies": {
+    "unbuild": "^1.1.1"
+  }
+}
