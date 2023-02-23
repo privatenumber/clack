@@ -1,5 +1,11 @@
 # @clack/prompts
 
+## 0.5.1
+
+### Patch Changes
+
+- cc11917: Update default `password` mask
+
 ## 0.5.0
 
 ### Minor Changes
